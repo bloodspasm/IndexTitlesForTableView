@@ -18,7 +18,7 @@ IndexTitlesForTableView
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         }
         cell.textLabel.text = @"xxx";
-        [tableView  setSectionIndexFont:[UIFont systemFontOfSize:25] textColor:[UIColor blueColor]];
+        [tableView setSectionIndexFont:[UIFont systemFontOfSize:25] textColor:[UIColor blueColor]];
         [tableView setSectionIndexBackgroundColor:[UIColor colorWithWhite:.5 alpha:1]];
         return cell;
     }
